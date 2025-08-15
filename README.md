@@ -20,13 +20,14 @@ Create a `.env` file in your project root and add the following configuration:
 ```env
 MIDTRANS_CLIENT_KEY=your_client_key_here
 MIDTRANS_MERCHANT_BASE_URL=your_merchant_base_url_here
+BASE_URL=your_backend_server_url_here
 ```
 
 **How to get configuration:**
 
 - **MIDTRANS_CLIENT_KEY**: Get from [Access Keys Settings](https://dashboard.sandbox.midtrans.com/settings/access-keys)
 - **MIDTRANS_MERCHANT_BASE_URL**: Get from **Merchant URL** section in [General Info Settings](https://dashboard.sandbox.midtrans.com/settings/general_info)
-- **BASE_URL**: Your URL backend server
+- **BASE_URL**: Your backend server URL
 
 ### 2. Dependencies
 
